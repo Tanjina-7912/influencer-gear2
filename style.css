@@ -1,0 +1,60 @@
+.width-section{
+   max-width :1700px; 
+   margin: 0 auto;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-ul > li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.baner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px;
+}
+.baner-para{
+    width: 700px;
+   
+}
+.baner-para > h1{
+    font-size: 55px;
+}
+.baner-para > p{
+    font-size: 20px;
+}
+.baner-image{
+
+    background-image: url("./image/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  margin-right: 30px;
+}
+.header-btn{
+    padding: 14px;
+    background-color: rgba(202, 9, 67, 0.979);
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 30px;
+}
+.logo{
+    margin: 50px;
+}
