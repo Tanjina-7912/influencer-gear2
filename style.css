@@ -58,3 +58,113 @@
 .logo{
     margin: 50px;
 }
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    box-shadow: 5px 10px 50px 2px #ced1dd ;
+    padding: 20px;
+}
+.card > img{
+    width: 100%;
+}
+
+
+/* phone */
+@media screen  and ( max-width:576px){
+    .header-section{
+    display: block;
+    text-align: center;
+}
+.header-ul{
+    display: block;
+   text-align: center;
+}
+.baner-section{
+    display: block;
+    
+  
+}
+.baner-para{
+    width: 100%;
+}
+.baner-image{
+    width: 100%;
+}
+
+
+
+.logo-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 10px;
+   
+}
+.card{
+    box-shadow: 5px 10px 50px 2px #ced1dd ;
+  
+}
+.card > img{
+    width: 100%;
+}
+
+    
+}
+/* tab */
+@media screen and ( min-width:576px) and (max-width:992px) {
+    .header-section{
+    display: block;
+    text-align: center;
+}
+.header-ul{
+    display: block;
+   text-align: center;
+}
+.baner-section{
+    display: block;
+    
+  
+}
+.baner-para{
+    width: 100%;
+}
+.baner-image > img{
+    width: 100%;
+    
+}
+
+
+
+.logo-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px;
+   
+}
+.card{
+    box-shadow: 5px 10px 50px 2px #ced1dd ;
+  
+}
+.card > img{
+    width: 100%;
+    
+}
+
+    
+}
+
